@@ -15,7 +15,7 @@ program
     console.log('name:',name,'options:',options)
 
     // 在 create.js 中执行创建任务
-    require('./create.js')(name, options)
+    require('../lib/create')(name, options)
   })
   
 program
